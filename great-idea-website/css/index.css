@@ -152,58 +152,106 @@ h5 {
 /* Your code starts here! */
 
 .container {
-	width: 80%;
-	margin: auto;
+	width: 1582px;
+	margin: auto auto;
 	border: 1px solid red;
 }
+
 nav .nav-links {
-	margin: 0 30px;
+	margin: 0 82px;
 	margin-top: 35px;
 }
+
 nav .logo {
 	margin-left: 24px;
 	margin-top: 35px;
 }
-header {
-	display: inline-block;
-}
-
-.header-box .header-picture {
-	display: inline-block;
-	width: 50%;
-}
 
 .header-title {
+	text-align: center;
 	font-size: 90px;
-	margin: 100px;
+}
+
+.header-box {
+	display: inline-block;
+	text-align: center;
+	margin: 0px 0px 0px 273px;
 }
 
 .header-button {
 	border: 1px solid black;
 	padding: 10px;
-	margin: 0px 600px 0px 182px;
+	width: 171px;
+}
+
+.full-header {
+	display: inline-block;
+	margin: 50px;
+	padding: 20px;
 }
 
 .header-picture {
-	margin-left: 500px;
-	margin-top: -185px;
+	height: 450px;
+	margin: 0px 0px -67px 180px;
 }
 
 .top-content {
 	display: inline-block;
 	height: 150px;
 	padding: 50px;
-	text-align: left;
-	width: 50%;
+	width: 100%;
+	margin: -24px 0px 0px 0px;
+}
+
+.top-box-left {
+	width: 40%;
+	display: inline-block;
+	margin: 0px 338px 0px -46px;
+}
+
+.top-box-right {
+	width: 40%;
+	display: inline-block;
+}
+
+.middle-img {
+	width: 100%;
+	height: 260px;
 }
 
 .bottom-content {
 	display: inline-block;
 	height: 150px;
 	padding: 50px;
-	text-align: left;
-	width: 30%;
+	width: 100%;
+	margin: -24px 0px 0px 0px;
 }
+
+.bottom-box-left {
+	width: 30%;
+	display: inline-block;
+	margin: 0px 117px 0px -46px;
+}
+
+.bottom-box-mid {
+	width: 30%;
+	display: inline-block;
+}
+
+.bottom-box-right {
+	width: 30%;
+	display: inline-block;
+	margin: 0px 0px 0px 70px;
+}
+
+.contact {
+	margin: 20px;
+}
+
+address {
+	margin: 0px 0px 13px 0px;
+}
+
 footer {
 	text-align: center;
 }
